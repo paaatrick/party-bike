@@ -1,2 +1,2 @@
 # party-bike
-:bike: :bike: :bike:
+:sparkles::bike::sparkles:
