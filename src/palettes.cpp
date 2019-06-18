@@ -94,3 +94,22 @@ const TProgmemHSVPalette16 HalloweenPalette_p PROGMEM = {
   0x328500,
   0x328500
 };
+
+const TProgmemPalette16 MichiganPalette_p PROGMEM = {
+  0x1433e5,
+  0x1433e5,
+  0x1433e5,
+  0x1433e5,
+  0x8d11e0,
+  0x8d11e0,
+  0x8d11e0,
+  0x8d11e0,
+  0xf9ed00,
+  0xf9ed00,
+  0xf9ed00,
+  0xf9ed00,
+  0xfff98c,
+  0xfff98c,
+  0xfff98c,
+  0xfff98c
+};

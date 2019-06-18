@@ -9,17 +9,18 @@ CRGB leds[NUM_LEDS];
 CRGBPalette16 palette;
 
 const CRGBPalette16 palettes[] = {
-  MardiGrasPalette_p, // 1
-  RosePalette_p,      // 2
-  CMYPalette_p,       // 3
-  GoldPalette_p,      // 4
-  CloudColors_p,      // 5
-  PartyColors_p,      // 6
-  ForestColors_p,     // 7
-  RainbowColors_p,    // 8
-  OceanColors_p,      // 9
-  HeatColors_p,       // 10
-  HalloweenPalette_p  // 11
+  MichiganPalette_p,  // 1
+  MardiGrasPalette_p, // 2
+  RosePalette_p,      // 3
+  CMYPalette_p,       // 4
+  GoldPalette_p,      // 5
+  CloudColors_p,      // 6
+  PartyColors_p,      // 7
+  ForestColors_p,     // 8
+  RainbowColors_p,    // 9
+  OceanColors_p,      // 10
+  HeatColors_p,       // 11
+  HalloweenPalette_p  // 12
 };
 
 Pattern* patterns[] = {

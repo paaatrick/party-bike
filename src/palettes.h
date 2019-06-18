@@ -13,4 +13,6 @@ extern const TProgmemPalette16 CMYPalette_p PROGMEM;
 
 extern const TProgmemPalette16 HalloweenPalette_p PROGMEM;
 
+extern const TProgmemPalette16 MichiganPalette_p PROGMEM;
+
 #endif
