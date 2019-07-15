@@ -43,4 +43,5 @@ void StartStopBlocks::on_step(uint8_t beat, uint8_t step)
   for (i = 0; i < width2; i++) {
     leds[(index2 + i) % TOP_TUBE_R] = color2;
   }
+  copy_left_to_right();
 }
