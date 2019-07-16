@@ -150,4 +150,18 @@ class Blink : public Pattern
     void on_step(uint8_t beat, uint8_t step);
 };
 
+class FallingStars : public Pattern
+{
+  private:
+    uint8_t cidx;
+    uint8_t num_stars;
+    uint8_t positions[];
+
+  public:
+    FallingStars(CRGB* leds, CRGBPalette16* palette);
+    void on_init();
+    void on_beat(uint8_t beat);
+    void on_step(uint8_t beat, uint8_t step);
+};
+
 #endif
