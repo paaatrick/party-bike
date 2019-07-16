@@ -164,4 +164,11 @@ class FallingStars : public Pattern
     void on_step(uint8_t beat, uint8_t step);
 };
 
+class PaletteTest : public Pattern
+{
+  public:
+    PaletteTest(CRGB* leds, CRGBPalette16* palette);
+    void on_init();
+};
+
 #endif
