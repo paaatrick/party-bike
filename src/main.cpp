@@ -10,17 +10,18 @@ CRGBPalette16 palette;
 
 const CRGBPalette16 palettes[] = {
   MichiganPalette_p,  // 1
-  MardiGrasPalette_p, // 2
-  RosePalette_p,      // 3
-  CMYPalette_p,       // 4
-  GoldPalette_p,      // 5
-  CloudColors_p,      // 6
-  PartyColors_p,      // 7
-  ForestColors_p,     // 8
-  RainbowColors_p,    // 9
-  OceanColors_p,      // 10
-  HeatColors_p,       // 11
-  HalloweenPalette_p  // 12
+  BrazilPalette_p,    // 2
+  MardiGrasPalette_p, // 3
+  RosePalette_p,      // 4
+  CMYPalette_p,       // 5
+  GoldPalette_p,      // 6
+  CloudColors_p,      // 7
+  PartyColors_p,      // 8
+  ForestColors_p,     // 9
+  RainbowColors_p,    // 10
+  OceanColors_p,      // 11
+  HeatColors_p,       // 12
+  HalloweenPalette_p  // 13
 };
 
 Pattern* patterns[] = {
@@ -37,6 +38,7 @@ Pattern* patterns[] = {
   new Spin(leds, &palette),             // 11
   new Loading(leds, &palette),          // 12
   new StartStopBlocks(leds, &palette),  // 13
+  new FallingStars(leds, &palette)      // 14
 };
 
 void setup() {

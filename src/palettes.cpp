@@ -113,3 +113,22 @@ const TProgmemPalette16 MichiganPalette_p PROGMEM = {
   0xfff98c,
   0xfff98c
 };
+
+const TProgmemPalette16 BrazilPalette_p PROGMEM = {
+  CRGB::Blue,
+  CRGB::Blue,
+  CRGB::Blue,
+  CRGB::Blue,
+  CRGB::White,
+  CRGB::Green,
+  CRGB::Green,
+  CRGB::Green,
+  CRGB::Green,
+  CRGB::Green,
+  CRGB::White,
+  CRGB::Yellow,
+  CRGB::Yellow,
+  CRGB::Yellow,
+  CRGB::Yellow,
+  CRGB::Yellow
+};
